@@ -1,0 +1,38 @@
+/**
+ * namnguyen
+ */
+import "dotenv/config";
+
+export const env = {
+  MONGODB_URI: process.env.MONGODB_URI || "",
+  DATABASE_NAME: process.env.DATABASE_NAME || "",
+
+  LOCAL_DEV_APP_HOST: process.env.LOCAL_DEV_APP_HOST,
+  LOCAL_DEV_APP_PORT: process.env.LOCAL_DEV_APP_PORT,
+
+  BUILD_MODE: process.env.BUILD_MODE || "dev",
+
+  AUTHOR: process.env.AUTHOR || "Nam Nguyen",
+
+  WEBSITE_DOMAIN_DEVELOPMENT: process.env.WEBSITE_DOMAIN_DEVELOPMENT,
+  WEBSITE_DOMAIN_PRODUCTION: process.env.WEBSITE_DOMAIN_PRODUCTION,
+
+  BREVO_API_KEY: process.env.BREVO_API_KEY || "",
+  ADMIN_EMAIL_ADDRESS: process.env.ADMIN_EMAIL_ADDRESS || "",
+  ADMIN_EMAIL_NAME: process.env.ADMIN_EMAIL_NAME || "",
+
+  ACCESS_TOKEN_PRIVATE_KEY: process.env.ACCESS_TOKEN_PRIVATE_KEY,
+  ACCESS_TOKEN_LIFE: process.env.ACCESS_TOKEN_LIFE,
+
+  REFRESH_TOKEN_PRIVATE_KEY: process.env.REFRESH_TOKEN_PRIVATE_KEY,
+  REFRESH_TOKEN_LIFE: process.env.REFRESH_TOKEN_LIFE,
+
+  CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
+  CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
+  CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,
+
+  SERVER_SECRET: process.env.SERVER_SECRET,
+  APPID: process.env.APPID,
+
+  UNSPLASH_ACCESS_KEY: process.env.UNSPLASH_ACCESS_KEY || "",
+};

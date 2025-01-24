@@ -1,0 +1,10 @@
+/**
+ * namnguyen
+ */
+{
+  "compilerOptions": {
+    "paths": {
+      "~/*": ["./src/*"],
+    },
+  }
+}
